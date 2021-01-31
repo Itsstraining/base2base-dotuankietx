@@ -114,7 +114,6 @@ function main(input) {
     }else if (temp[2] == 10) {
       binaryToDecimal(toBinaty(temp[0],oct,octCount))
     }else if (temp[2] == 16) { 
-      console.log(toBinaty(temp[0],oct,octCount))
       convert(binaryToHexa(toBinaty(temp[0],oct,octCount)),hex,hexCount)
     }
   }else if (temp[1] == 16) {
